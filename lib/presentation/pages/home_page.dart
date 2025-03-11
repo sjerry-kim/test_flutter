@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key, required this.title});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key, required this.title});
   final String title;
 
   @override
@@ -9,8 +9,8 @@ class MyHomePage extends StatelessWidget {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: const [
-          Text('Welcome to Home Page'),
+        children: [
+          Text(title),
         ],
       ),
     );

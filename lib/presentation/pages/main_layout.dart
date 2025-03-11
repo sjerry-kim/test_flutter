@@ -29,17 +29,24 @@ class MainLayout extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text('Go to Home'),
+              title: const Text('Home'),
               onTap: () {
                 Navigator.pop(context);
                 context.go('/');
               },
             ),
             ListTile(
-              title: const Text('Go to My Page'),
+              title: const Text('My Page'),
               onTap: () {
                 Navigator.pop(context);
                 context.go('/my-page');
+              },
+            ),
+            ListTile(
+              title: const Text('Board'),
+              onTap: () {
+                Navigator.pop(context);
+                context.go('/board');
               },
             ),
           ],
