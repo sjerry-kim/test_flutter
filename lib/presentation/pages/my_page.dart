@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class MyPage extends StatelessWidget {
+  const MyPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: const [
+          Text('This is My Page'),
+        ],
+      ),
+    );
+  }
+}
